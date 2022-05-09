@@ -1,0 +1,51 @@
+/* Todos los elementos */
+*{
+    /* background-color: white; */
+}
+
+/* barra de navegación */
+nav{
+    background-color: white;
+}
+
+nav{
+position: inherit;
+}
+
+
+.nav-bar{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.arqueTitle{
+    font-size: xx-large;
+}
+
+.arqueLogo{
+    width: 100px;
+    height: 100px;
+}
+
+.btnCart{
+    border-color: transparent;
+    /* height: 200px;
+    width: 200px; */
+}
+
+img{
+width: 30px;
+height: 30px;
+background-color: transparent;
+}
+
+/* body */
+body{
+    background-color: #FFE3E0;
+}
+
+/* Profuctos Flexbox */
+
+/* Servicios Grid */
