@@ -6,22 +6,26 @@
 /* barra de navegación */
 nav{
     background-color: white;
-}
+    width: 100%;
+   
 
-nav{
-position: inherit;
-}
 
+}
 
 .nav-bar{
    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 30px;
+    margin:0;
+    padding: 0;
+   
 }
 
 .arqueTitle{
     font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .arqueLogo{
@@ -31,8 +35,8 @@ position: inherit;
 
 .btnCart{
     border-color: transparent;
-    /* height: 200px;
-    width: 200px; */
+    background-color: transparent;
+    
 }
 
 img{
@@ -46,6 +50,178 @@ body{
     background-color: #FFE3E0;
 }
 
-/* Profuctos Flexbox */
+.workshops{
+    margin-left: 5%;
+}
 
-/* Servicios Grid */
+/* Productos Flexbox */
+#wSection{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    font-style:inherit;
+    text-align: inherit;
+    
+}
+
+.imgWorkshops{
+    width: 150px;
+    height: 150px;
+    /* display: flex;
+    flex-direction: row; */
+    padding-right: 50px;
+   
+  
+
+}
+
+.alineartxtW{
+    margin-left: -40px;
+    text-align: center;
+}
+
+.btnComprar{
+    background-color: #F7A399;
+    border-color: #F68E8E;
+    width: 100px;
+    border-radius: 10%;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.products{
+margin-left: 5%;
+}
+/* Productos Display Inline-Block*/
+
+.service{
+    margin-left: 5%;
+
+}
+
+.row-products{
+    /* display: grid;
+    /* grid-template-columns: (repeat) 4,1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
+    margin-bottom: 50px; 
+    margin-left: 60px;
+    margin-right: 80px;
+    display: inline-block;
+    
+}
+
+.imgProducts{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.alineartxtP{
+    text-align: center;
+
+}
+
+/* Servicios con GRID */
+.grid{
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+/* margin-left: 70px; */
+text-align: center;
+
+}
+
+.imgService{
+    width: 150px;
+    height: 150px;
+}
+
+.alineartxtS{
+    /* text-align: center; */
+}
+
+
+
+
+
+
+
+/* SEGUNDA VISTA VALIDACIÓN DE TARJETA */
+
+#secondView{
+    display: flex;
+    flex-direction: column;
+
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    column-gap: 30px; */
+}
+
+.cartTitle{
+text-align: center;
+}
+
+.creditCard{
+    width: 400px;
+    height: 400px;
+    vertical-align: middle;
+    align-items: center;
+    margin-left: 350px;
+
+}
+/* inputs */
+.inputs{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    text-align:left;
+    padding-left: 10px;
+    background-color: #F7A399;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 390px;
+    
+}
+::placeholder{color: white;}
+
+.btnVal{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #F68E8E;
+    border-radius: 10px;
+    color:#F68E8E;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+
+
+}
+.footerLogo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 280px;
+}
+
+.footerArque{
+width: 100%;
+height: 50px;
+background-color: white;
+margin-top: 50px;
+/* padding-top: 5%; */
+text-align: center;
+padding-top: 50px;
+padding-left: 30px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:large ;
+}
+
