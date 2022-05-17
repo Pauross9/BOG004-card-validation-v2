@@ -1,136 +1,117 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Paula Rosales">
-    <title>Arquetípica</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/bbebcd0a78.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="nav-bar">
-        <p class="arqueTitle">Arquetípica Terapias</p>
-        <img class="arqueLogo" src="./img/Sticker circular tornasol.png">
-        <button class="btnCart" type="button"> <img src="./img/carroDeCompra.png"/></button>
-        </div>
-      </nav>
-    </header>
-    
-    <!-- Sección de Workshops Flexbox-->
-    <div id="fistView">
-    <h2 class="workshops">Workshops</h2>
-      <div id="wSection" class="container">
-          <div class="row-workshops">
-            <img class="imgWorkshops" src="./img/aromaterapia.jpg" alt="imagen">
-            <p class="alineartxtW">Aromaterapia</p>
-            <a href="https://pauross9.github.io/BOG004-card-validation/src/index.html" >
-            <button class="btnComprar">Comprar</button>
-          </a>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Paula Rosales">
+      <title>Arquetípica</title>
+      <link rel="stylesheet" href="style.css" />
+      <script src="https://kit.fontawesome.com/bbebcd0a78.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <!-- PRIMERA VISTA CARRO DE COMPRAS -->
+      <header>
+        <nav>
+           <div class="nav-bar">
+              <p class="arqueTitle">Arquetípica Terapias</p>
+              <img class="arqueLogo" src="./img/Sticker circular tornasol.png">
+              <!-- <button id="btnCart" class="btnCart" type="button"> <img src="./img/carroDeCompra.png" /></button> -->
+           </div>
+        </nav>
+     </header>
+      <div id="shoppingCart" class="shoppingCart">
+         
+         <!-- Sección de Workshops Flexbox-->
+         <div id="firstView">
+            <h2 class="workshops">Workshops</h2>
+            <div id="wSection" class="container">
+               <div class="row-workshops">
+                  <img class="imgWorkshops" src="./img/aromaterapia.jpg" alt="imagen">
+                  <p class="alineartxtW">Aromaterapia</p>
+                  <button class="btnComprar">Comprar</button>
+               </div>
+               <div class="row-workshops">
+                  <img class="imgWorkshops" src="./img/floresdebach.jpg" alt="imagen">
+                  <p class="alineartxtW">Flores de Bach</p>
+                  <button class="btnComprar">Comprar</button>
+               </div>
+               <div class="row-workshops">
+                  <img class="imgWorkshops" src="./img/medicinaTuPlacenta.jpg" alt="imagen">
+                  <p class="alineartxtW">Medicina tu placenta</p>
+                  <button class="btnComprar">Comprar</button>
+               </div>
+               <div class="row-workshops">
+                  <img class="imgWorkshops" src="./img/VelaDeCeradeSoya.jpg" alt="imagen">
+                  <p class="alineartxtW">Crea tus velas de Soya</p>
+                  <button class="btnComprar">Comprar</button>
+               </div>
+            </div>
+            <!-- Sección de Productos Grid-->
+            <h2 class="products">Productos</h2>
+            <div id="p_Section" class="container">
+               <div class="row-products">
+                  <img class="imgProducts" src="./img/sahumos.jpg" alt="imagen">
+                  <p class="alineartxtP">Sahumos</p>
+                  <button class="btnComprar">Comprar</button>
+               </div>
+               <div class="row-products">
+                  <img class="imgProducts" src="./img/RitualBox.jpg" alt="imagen">
+                  <p class="alineartxtP">Ritual Box</p>
+                  <button class="btnComprar">Comprar</button>
+               </div>
+               <div class="row-products">
+                  <img class="imgProducts" src="./img/aceitesDeMasaje.jpg" alt="imagen">
+                  <p class="alineartxtP">Aceite de masaje</p>
+                  <button class="btnComprar">Comprar</button>
+               </div>
+               <div class="row-products">
+                  <img class="imgProducts" src="./img/cuidadoPersonal.jpg" alt="imagen">
+                  <p class="alineartxtP">Cuidado personal</p>
+                  <button class="btnComprar">Comprar</button>
+               </div>
+            </div>
+         </div>
+         <!-- Sección de Servicios -->
+         <h2 class="service">Servicios</h2>
+         <div id="s_Section" class="grid">
+            <div class="row-service">
+               <img class="imgService" src="./img/auriculoterapia.jpg" alt="imagen">
+               <p class="alineartxtS">Auriculoterapia</p>
+               <button class="btnComprar">Comprar</button>
+            </div>
+            <div class="row-service">
+               <img class="imgService" src="./img/FloresdeBAchServicios.jpg" alt="imagen">
+               <p class="alineartxtS">Flores de Bach</p>
+               <button class="btnComprar">Comprar</button>
+            </div>
+            <div class="row-service">
+               <img class="imgService" src="./img/fitoterapia.jpg" alt="imagen">
+               <p class="alineartxtS">Fitoterapia</p>
+               <button class="btnComprar">Comprar</button>
+            </div>
+            <div class="row-service">
+               <img class="imgService" src="./img/medicinadePlacenta.jpg" alt="imagen">
+               <p class="alineartxtS">Medicina de placenta</p>
+               <button class="btnComprar">Comprar</button>
+            </div>
+         </div>
       </div>
-
-          <div class="row-workshops">
-            <img class="imgWorkshops" src="./img/floresdebach.jpg" alt="imagen">
-            <p class="alineartxtW">Flores de Bach</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-          <div class="row-workshops">
-            <img class="imgWorkshops" src="./img/medicinaTuPlacenta.jpg" alt="imagen">
-            <p class="alineartxtW">Medicina tu placenta</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-          <div class="row-workshops">
-            <img class="imgWorkshops" src="./img/VelaDeCeradeSoya.jpg" alt="imagen">
-            <p class="alineartxtW">Crea tus velas de Soya</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-
-        
+      <!-- SEGUNDA VISTA validación de tarjeta -->
+      <div id="secondView" class="secondView">
+         <div class="cardValidatorView">
+            <h2 class="cartTitle">Ingresa los datos solicitados para concretar tu compra</h2>
+            <img class="creditCard" src="./img/creditCard.png" alt="imagen">
+            <br>
+            <input type="name" id="nameClient" class="inputs" placeholder="Ingresa tu nombre">
+            <br>
+            <input type="card" id="cardNumber" class="inputs" placeholder="Ingresa tu n° de tarjeta">
+            <br>
+            <input type="cvc" id="cvcNumber" class="inputs" placeholder="Ingresa tu CVC">
+         </div>
+         <button class="btnVal">Validar</button>
       </div>
-
-<!-- Sección de Productos Grid-->
-<h2 class="products">Productos</h2>
-      <div id="p_Section" class="container">
-          <div class="row-products">
-            <img class="imgProducts" src="./img/sahumos.jpg" alt="imagen">
-            <p class="alineartxtP">Sahumos</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-          <div class="row-products">
-            <img class="imgProducts" src="./img/RitualBox.jpg" alt="imagen">
-            <p class="alineartxtP">Ritual Box</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-          <div class="row-products">
-            <img class="imgProducts" src="./img/aceitesDeMasaje.jpg" alt="imagen">
-            <p class="alineartxtP">Aceite de masaje</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-          <div class="row-products">
-            <img class="imgProducts" src="./img/cuidadoPersonal.jpg" alt="imagen">
-            <p class="alineartxtP">Cuidado personal</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-      </div>
-
-</div>
-<!-- Sección de Servicios -->
-<h2 class="service">Servicios</h2>
-      <div id="s_Section" class="grid">
-          <div class="row-service">
-            <img class="imgService" src="./img/auriculoterapia.jpg" alt="imagen">
-            <p class="alineartxtS">Auriculoterapia</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-          <div class="row-service">
-            <img class="imgService" src="./img/FloresdeBAchServicios.jpg" alt="imagen">
-            <p class="alineartxtS">Flores de Bach</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-          <div class="row-service">
-            <img class="imgService" src="./img/fitoterapia.jpg" alt="imagen">
-            <p class="alineartxtS">Fitoterapia</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-          <div class="row-service">
-            <img class="imgService" src="./img/medicinadePlacenta.jpg" alt="imagen">
-            <p class="alineartxtS">Medicina de placenta</p>
-            <button class="btnComprar">Comprar</button>
-          </div>
-
-      </div>
-
-
-
-<!-- Segunda vista validación de tarjeta -->
-<div id="secondView" class="secondView">
-  <div class="cardValidatorView">
-<h2 class="cartTitle">Ingresa los datos solicitados para concretar tu compra</h2>
-<img class="creditCard" src="./img/creditCard.png" alt="imagen">
-<br>
-<input type= "name" id= "nameClient" class="inputs" placeholder="Ingresa tu nombre" >
-<br>
-<input type= "card" id= "cardNumber" class="inputs" placeholder="Ingresa tu n° de tarjeta" >
-<br>
-<input type= "cvc" id= "cvcNumber" class="inputs" placeholder="Ingresa tu CVC" >
-  </div>
-  <button class="btnVal">Validar</button>
-</div>
-<img class="footerLogo" src="./img/Sticker circular tornasol.png" alt="imagen"/>
-
-    <footer class="footerArque">Arquetípica ®  todos los derechos reservados 2022</footer>
-    <script src="index.js" type="module"></script>
-  </body>
+      <img class="footerLogo" src="./img/Sticker circular tornasol.png" alt="imagen" />
+      <footer class="footerArque">Arquetípica ® todos los derechos reservados 2022</footer>
+      <script type="module" src="./index.js"></script>
+   </body>
 </html>
