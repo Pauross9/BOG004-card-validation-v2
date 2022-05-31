@@ -49,7 +49,7 @@ body{
     margin-left: 5%;
 }
 
-/* Productos Flexbox */
+/* Workshops Flexbox */
 #wSection{
     display: flex;
     flex-direction: row;
@@ -88,8 +88,8 @@ body{
 .products{
 margin-left: 5%;
 }
-/* Productos Display Inline-Block*/
 
+/* Productos Display Inline-Block*/
 .service{
     margin-left: 5%;
 
@@ -152,6 +152,7 @@ text-align: center;
 
 .cartTitle{
 text-align: center;
+margin-top: 100px;
 }
 
 .creditCard{
@@ -167,24 +168,25 @@ text-align: center;
     width: 300px;
     height: 40px;
     border-radius: 10px;
-    border: transparent;
+    border: 2px solid #F7A399;
     text-align:left;
     padding-left: 10px;
-    background-color: #F7A399;
-    color: white;
+    background-color: white ;
+    color: #F85F5F;
     margin-bottom: 15px;
     margin-left: 390px;
+    font-weight: bolder
     
 }
-::placeholder{color: white;}
+::placeholder{color: #F85F5F; font-weight: bolder;}
 
 .btnVal{
     width: 100px;
     height: 50px;
-    background-color: white;
-    border: 1px solid #F68E8E;
+    background-color: #F68E8E;
+    border: 2px solid white;
     border-radius: 10px;
-    color:#F68E8E;
+    color: white;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 20px;
@@ -199,6 +201,14 @@ text-align: center;
     position: absolute;
     margin-top: 70px;
     margin-left: 280px;
+}
+
+#result{
+    position: relative;
+    color: #F85F5F;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .footerArque{
